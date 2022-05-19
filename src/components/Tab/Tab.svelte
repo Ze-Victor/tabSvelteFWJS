@@ -10,6 +10,7 @@
     
     const onSelect = (tabIndex: number) => {
         currentTab = tabIndex;
+        console.log(`Você selecionou o botão ${tabIndex}`)
     };
 </script>
 

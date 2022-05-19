@@ -9,6 +9,7 @@
 
     export const onClick = (index: number) => {
         dispatcher('selection', index);
+        console.log(`Você clicou no botão ${index}`)
     };
     
 </script>
