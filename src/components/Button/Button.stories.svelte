@@ -6,12 +6,6 @@
 <Meta
   title="Button"
   component={Button}
-  argTypes={{
-    selected: { control: "boolean" },
-    text: { control: "text"},
-    index: { control: "number" },
-    onClick: {action: 'onClick'},
-  }}
 />
 
 <Template let:args>
